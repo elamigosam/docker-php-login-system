@@ -1,14 +1,12 @@
 # docker-php-login-system
 php login system with registration and user management based on docker. If you have any suggestions or would like to contribute to it, you are welcome to.  I would like to make sure this is a secure login system. 
 # Setup
-Clone the project,<br/>
-Rename the file env_sample.php to env.php<br/>
-Change configuration on env file to meet your needs. <br/>
-do docker-compose up -d<br/>
-Visit the phpmyadmin site under the 8080 port<br/>
-Select the mydatabase Database and import the database.sql file<br/>
-This will import the database tables and default users.<br/>
-After that its a typical Docker compose deployment, using the docker-compose.yml as your compose file. The default user credentials are the following: 
+Clone the project (git clone)<br/>
+
+After that its a typical Docker compose deployment,<br/>
+using the docker-compose.yml as your compose file. (docker-compose up -d)<br/> 
+<br/>
+The default user credentials are the following: 
 <br/>
 # Default Users
 Admin<br/>
