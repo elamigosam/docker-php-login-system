@@ -27,6 +27,7 @@ services:
       MYSQL_PASSWORD: mypassword
     volumes:
       - mariadb:/var/lib/mysql
+      - ./database.sql:/docker-entrypoint-initdb.d/database.sql
     networks:
       - backend
 
